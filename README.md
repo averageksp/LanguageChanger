@@ -22,6 +22,10 @@ Using this mod, you can now switch to any language of your choice that is availa
 - Russian (ru)
 - Spanish (es-es)
 
+## Supported OS
+- Windows and MacOS should work perfectly fine.
+- Haven't tested it on Linux yet.
+
 ## Installation
 - Download it via CKAN
 - Download it via [SpaceDock](https://spacedock.info/mod/3902/LanguageChanger) or [GitHub](https://github.com/averageksp/LanguageChanger) and place it manually into your GameData folder.
