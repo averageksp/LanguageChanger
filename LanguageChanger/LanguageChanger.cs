@@ -6,7 +6,7 @@ using UnityEngine;
 using KSP.UI.Screens;
 using System.Text.RegularExpressions;
 
-[KSPAddon(KSPAddon.Startup.MainMenu, false)]
+[KSPAddon(KSPAddon.Startup.AllGameScenes, false)]
 public class LanguageChanger : MonoBehaviour
 {
     private ApplicationLauncherButton button;
@@ -37,7 +37,7 @@ public class LanguageChanger : MonoBehaviour
                 ToggleGUI, ToggleGUI,
                 null, null, null, null,
                 ApplicationLauncher.AppScenes.ALWAYS,
-                GameDatabase.Instance.GetTexture("LanguageChanger/Icon/icon", false)
+                GameDatabase.Instance.GetTexture("LanguageChanger/Textures/icon", false)
             );
         }
     }
@@ -190,3 +190,4 @@ public class LanguageChanger : MonoBehaviour
         GameEvents.onGUIApplicationLauncherReady.Remove(OnGUIAppLauncherReady);
     }
 }
+
