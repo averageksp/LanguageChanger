@@ -6,7 +6,7 @@ using UnityEngine;
 using KSP.UI.Screens;
 using System.Text.RegularExpressions;
 
-[KSPAddon(KSPAddon.Startup.AllGameScenes, false)]
+[KSPAddon(KSPAddon.Startup.MainMenu, false)]
 public class LanguageChanger : MonoBehaviour
 {
     private ApplicationLauncherButton button;
