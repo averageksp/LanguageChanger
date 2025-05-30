@@ -2,8 +2,11 @@
 
 
 Ever felt the feeling of installing the wrong language and not wanting to install another version just for another language?!
+
 Or you just wanted to test your mod's localization but you are lazy to do all this work to just change a language?!
+
 Well... not anymore! :)
+
 Using this mod, you can now switch to any language of your choice that is available. Restart the Game, and the language has been changed!
 
 
